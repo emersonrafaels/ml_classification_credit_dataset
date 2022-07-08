@@ -44,6 +44,30 @@ Quantidade de dados: **2000 clientes **
 | loan | float64 | Quantidade de empréstimo solicitada |
 | default | int64 | Coluna binária dizendo se pagou ou não o empréstimo solicitado |
 
+## 📈 Resultados
+
+<h1 align="center">
+    <img alt="BOXPLOT_AGE - AGE" title="#BOXPLOT_AGE" src="./IMAGENS/boxplot_age.png" />
+</h1>
+
+O boxplot mostra que há três valores de idade outliers, no caso:
+
+- age < 0
+
+O tratamento ocorre na seção: Tratamento das idades negativas.
+
+<h1 align="center">
+    <img alt="HISTOGRAM_AGE - AGE" title="#HISTOGRAM_AGE" src="./IMAGENS/histogram_age.png" />
+</h1>
+
+O gráfico acima mostra que os clientes não pagantes possuem idades menores (mais jovens) que os clientes pagantes.
+
+<h1 align="center">
+    <img alt="SCATTER_AGE_LOAN - AGE" title="#SCATTER_AGE_LOAN" src="./IMAGENS/scatter_age_loan.png" />
+</h1>
+
+O gráfico acima reforça a importância da variável idade, para identificar um cliente não pagante (default = 1), independentemente do valor de empréstimo solicitado.
+
 ## 🛠  Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
