@@ -90,7 +90,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 	- *Tratamento dos valores inconsistentes - Idade*
 		- *Usando IQR*
 	- *Escalonização dos dados*
-		<img src="https://render.githubusercontent.com/render/math?math=StandardScaler = \frac{X - Mean(X)}{std(X)}">
+		$$ StandardScaler = \frac{X - Mean(X)}{std(X)} $$
 
 ## 🚀 Como executar o projeto
 
