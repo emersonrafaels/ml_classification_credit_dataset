@@ -89,6 +89,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 	- *Retirando valores nulos*
 	- *Tratamento dos valores inconsistentes - Idade*
 		- *Usando IQR*
+	- *Escalonização dos dados*
+		$$
+			StandardScaler = \frac{X - Mean(X)}{std(X)}
+		$$
 
 ## 🚀 Como executar o projeto
 
