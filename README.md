@@ -34,7 +34,7 @@
 
 O dataset contém os dados:
 
-Quantidade de dados: **2000 clientes **
+Quantidade de dados: **2000 clientes**
 
 | Variável | Tipo | O que é |
 |--|--|--|
