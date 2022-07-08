@@ -91,6 +91,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 		- *Usando IQR*
 	- *Escalonização dos dados*
 		$$ StandardScaler = \frac{X - Mean(X)}{std(X)} $$
+- **Modelo - Regressão Logística (Logistic Regression)**
+	- *Train Test Split*
+	- *Fit - Predict*
+	- *Avaliando o modelo*
+		- *Classification Report*
 
 ## 🚀 Como executar o projeto
 
